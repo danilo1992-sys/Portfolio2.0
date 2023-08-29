@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    background: #2a2b32;   
+}
+
+a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color:#e91e63;
+}
+
+h1.header{
+    color: #e91e63;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+canvas{
+    height: 100vh;
+    z-index: -10000000;
+    position: fixed;
+    top: 0;
+}
+
+.mb{
+    margin-bottom: 3rem;
+}
+
+.logo{
+    font-family: 'Monoton', cursive;
+    color: #fff;
+    font-size: 10rem;
+}
+
+.link-list ul li{
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 0;   
+}
+
+.links-list h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.links-list ul li span{
+    background-color: #e91e63;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 3px 6px;
+    font-weight: bold;
+    margin-left: 0,5rem;
+    color: #fff;
+}
+
+.footer{
+    margin-top: 6rem;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+form {
+    max-width: 420px;
+    margin: 50px auto;
+}
+
+.feedback-input {
+    color: white;
+    font-family: 'Ubuntu' sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: white;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus {
+    border: 2px solid #E91E63;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+textarea:focus{
+    border: 2px solid #E91E63;
+}
+
+[type="submit"] {
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    background: #E91E63;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+
+[type="submit"]:hover {
+    background: #E91E63;
+}
+
