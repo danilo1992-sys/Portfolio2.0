@@ -137,3 +137,8 @@ textarea:focus{
     background: #E91E63;
 }
 
+.image{
+    float: right;
+    width: 20%;
+    border-radius: 100%;
+}

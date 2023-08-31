@@ -2,27 +2,31 @@
 <html lang="es">
 
 <head>
+    <a href="/public/mi.html">Sobre mi</a>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./static/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+
+</head>
     <title> Portafolio </title>
 </head>
 
-<body>
-    <div id="background">
+<body id="background" >
+    <div>
         <div class="container">
             <div class="row mb">
                 <div class="column">
-                    <a href="https://github.com/danilo1992-sys" class="logo">D</a>
-                    <h1 class="header">Danilo Caceres</h1>
+                    <img src="./static/IMG_20191106_121644.png" alt="" class="image">
+                    <a  class="logo">D</a>
+                    <h1 href="https://github.com/danilo1992-sys" class="header">Danilo Caceres</h1>
                     <h1 class="header">Mi github personla donde podras encontarar todos mis projectos </h1>
                     <h2>Projectos con react, javascript, python, flask entre otras tecnologias, desplegasdos
                         con docker y utilizando mongodb y mysql como base de datos
                     </h2>
-                    <a href="www.linkedin.com/in/danilo-caceres" class="logo">linkedin</a>
                 </div>
             </div>
+
             <div class="row">
                 <div class="one-half column">
                     <div class="links-list">
@@ -69,11 +73,11 @@
             <div class="container">
             </div>
             <body>
-                <form>
+                <form id="mailer-form">
                     <input name="name" type="text" class="feedback-input" placeholder="Name" />
                     <input name="email" type="text" class="feedback-input" placeholder="Email" />
-                    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-                    <input type="submit" value="SUBMIT" />
+                    <textarea name="text" class="feedback-input" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar" />
                 </form>
             </body>
             <div class="footer">
@@ -82,14 +86,10 @@
                     <a href="https://github.com/danilo1992-sys"> Danilo Caceres</a>
                 </p>
             </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+            <script src="../src/particle.js"></script>
         </div>
-
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-    <script src="/src/index.js"></script>
 </body>
-
-
 </div>
-
 </html>
